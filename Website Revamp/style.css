@@ -1,0 +1,161 @@
+.logo {
+    width:350px;
+    height:auto;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px ;
+    margin-top: 50px;
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+    background-color:#ff001b;
+    border-radius: 30px, 30px, 30px, 30px;
+}
+nav{
+    flex:1;
+    padding-left: 20%;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    padding: 16px 32px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color:#ffde00;
+    font-family: 'Oswald', sans-serif;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background-color:rgb(123, 0, 0);
+    border-radius: 30px 30px 30px 30px;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+  
+  .menu {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+  
+  .menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-description {
+    line-height: 1.6;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .menu {
+      font-size: 16px;
+    }
+  
+    .menu-group {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .menu-item-image {
+      width: 125px;
+      height: 125px;
+    }
+  }
+  
+
+img {
+  width: 1000px;
+  padding: 50px;
+  float:left;
+}
+.container2 {
+    align-items: center;
+    justify-content: center;
+   }
+p {
+  font-size: 20px;
+  font-family:sans-serif;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color:#ff001b;
+  text-shadow: 4px 4px #ffde00;
+  font-size:80px;
+
+}
+h2 {
+  font-size:50px;
+}
+h3 {
+  font-family:'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+ }
+.text {
+font-size: 20px;
+padding-left: 20px;
+padding-top: 10%;
+float: left;
+}
+.text-2 {
+font-size: 20px;
+padding-left: 20px;
+padding-top: 20px;
+
+}
+.imagepg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
